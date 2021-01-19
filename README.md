@@ -42,13 +42,13 @@ Algunas de sus características y funcionalidades se describen a continuación:
 2.- Cualquier navegador compatible con la Api de indexedDB, que por los momentos son casi todos o por lo menos los más usados e importantes. A continuación, un link donde pueden validar la compatibilidad al día de hoy: https://caniuse.com/#search=indexedDB. 
 
 ## Instalación (Desarrolladores).
-1.- Clonar el repositorio: https://github.com/newmanferrer/BugsBunnyProyect-IndexedDB.git
+1.- Clonar el repositorio: https://github.com/newmanferrer/BugsBunnyProject-IndexedDB.git
 2.- Otra opción es descargar el repositorio mediante formato ZIP.
 3.- Instalar las dependencias mediante el comando “npm install”, desde la consola del terminal.
 4.- Desde la consola del terminal ejecutar el comando “gulp”, para ejecutar el servidor de desarrollo, compilar, transpilar y minificar u ofuscación del código.
 
 ## Instalación (Usuarios).
-1.- Clonar el repositorio: https://github.com/newmanferrer/BugsBunnyProyect-IndexedDB.git
+1.- Clonar el repositorio: https://github.com/newmanferrer/BugsBunnyProject-IndexedDB.git
 2.- Otra opción es descargar el repositorio mediante formato ZIP.
 3.- Ejecutar el archivo “index.html”, que se encuentra en la carpeta “public”, desde cualquier servidor de desarrollo web, como por ejemplo “Live Server”.
 
@@ -101,13 +101,13 @@ Some of its features and functionalities are described below:
 2.- Any browser compatible with the indexedDB API, which at the moment are almost all or at least the most used and important. Here is a link where you can validate the compatibility today: https://caniuse.com/#search=indexedDB.
 
 ## Installation (Developers).
-1.- Clone the repository: https://github.com/newmanferrer/BugsBunnyProyect-IndexedDB.git
+1.- Clone the repository: https://github.com/newmanferrer/BugsBunnyProject-IndexedDB.git
 1.- Another option is to download the repository using ZIP format.
 2.- Install the dependencies using the command "npm install", from the terminal console.
 3.- From the terminal console, execute the “gulp” command, to run the development server, compile, transpile and minify or obfuscate the code.
 
 ## Installation (Users).
-1.- Clone the repository: https://github.com/newmanferrer/BugsBunnyProyect-IndexedDB.git
+1.- Clone the repository: https://github.com/newmanferrer/BugsBunnyProject-IndexedDB.git
 2.- Another option is to download the repository using ZIP format.
 3.- Execute the file "index.html", found in the "public" folder, from any web development server, such as "Live Server".
 
