@@ -1,0 +1,22 @@
+extends ../templates/template.pug
+
+block main
+  .main-container
+
+    .container-title
+      a(href="index.html").container-title__link Home
+      h1.container-title__title Mostrar Partos
+
+    .container-mostrarPartos#container-mostrarPartos
+
+      .container-mostrarPartos__container-formulario-BuscarPartos#container-formulario-mostrar-BuscarPartos
+        form(action="").container-mostrarPartos__container-formulario-BuscarPartos__formularioBuscarPartos#mostrar__formularioBuscarPartos
+          label(for="inputBuscarPartos") Código:
+          input(type="text" name="inputBuscarPartos" required autocomplete="off" autofocus placeholder="Rango (001 - 999)")#inputBuscarPartos
+          button(type="submit" name="buttonBuscar") Buscar
+
+      .container-mostrarPartos__container-formulario-mostrarPartosEncontrados#mostrar__container-formularioPartosEncontrados
+        .container-mostrarPartos__container-formulario-mostrarPartosEncontrados__formulario-mostrarPartosEncontrados#formulario-mostrar-partosEncontrados
+
+    .container-error#container-error
+      p.container-error__parrafo#container-error__parrafo

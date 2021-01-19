@@ -1,0 +1,75 @@
+.container-selectSexo {
+  width: 98vw;
+  height: 83vh;
+  margin: 0 auto;
+  padding: 1vh 0vw;  
+  background-color: royalblue;
+  border-radius: 5px; 
+  
+    &__container__formularioSexo {
+    
+      &__formularioSexo {
+        width: 95vw;
+        height: 5.8vh;
+        margin: 0vh auto 2vh;
+        
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        
+        background-color: rgb(125, 156, 248);
+        border-radius: 5px;
+      }
+    }
+    
+    &__container-sexoEncontrado {    
+      width: 95vw;
+      height: 72.8vh;
+      margin: 0vh auto 2vh;
+      padding: 1.5vh 0vw;
+  
+      display: grid;
+      grid-template-columns: repeat(1, 1fr 3fr);
+      column-gap: 10px;
+      grid-template-rows: repeat(18, 1fr);
+      row-gap: 10px;
+  
+      justify-items: flex-start;
+      align-items: flex-start;
+  
+      background-color: rgb(125, 156, 248);
+      border-radius: 5px;
+  
+        & label, span {
+          font-size: 17px;
+        }
+      
+        & label {
+          font-weight: bold;
+          margin-left: 15px;
+        }
+    }
+}
+  
+.container-error__mostrarSexo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 98%;
+  height: 5%;
+  margin: 1% 1%;
+  padding: 0px 5px;
+  border-radius: 5px;
+  
+    &__parrafo {
+      color: $text-color
+    }
+}
+  
+.container-error-visible__mostrarSexo {
+  background-color: $secundary-danger-color;
+}
+
+.container-error-visible-OK__mostrarSexo {
+  background-color: $primary-color;
+}

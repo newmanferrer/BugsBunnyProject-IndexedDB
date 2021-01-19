@@ -1,0 +1,39 @@
+:root {
+  --text-color: #ffffff;
+
+  --background-color: #ffffff;
+
+  --body-background-image-1: #fd7341;
+  --body-background-image-2: #ff4500;
+
+  --primary-color: #4169e1;
+  --secundary-color: #adadad;         
+  --secundary-color-2: #808080;
+
+  --destacar-color: #fba905;
+  --primary-danger-color: #b70e21;
+  --secundary-danger-color: #ff0000;
+
+  --list-item-color-1: #008000;
+  --list-item-color-2: #ff4500;
+  --list-item-color-3: #ff0000;
+}
+
+$text-color: var(--text-color); 
+
+$background-color: var(--background-color);
+
+$body-background-image-1: var(--body-background-image-1);
+$body-background-image-2: var(--body-background-image-2);
+
+$primary-color: var(--primary-color);
+$secundary-color: var(--secundary-color); 
+$secundary-color-2: var(--secundary-color-2); 
+
+$destacar-color: var(--destacar-color);
+$primary-danger-color: var(--primary-danger-color);
+$secundary-danger-color: var(--secundary-danger-color);
+
+$list-item-color-1: var(--list-item-color-1);
+$list-item-color-2: var(--list-item-color-2);
+$list-item-color-3: var(--list-item-color-3);

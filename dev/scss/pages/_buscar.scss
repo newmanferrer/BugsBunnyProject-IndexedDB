@@ -1,0 +1,90 @@
+.container-buscar {
+  width: 98vw;
+  height: 82vh;
+  margin: 0 auto;
+  padding: 1vh 0vw;  
+  background-color: royalblue;
+  border-radius: 5px; 
+
+    &__container__formularioBuscar {  
+
+      &__formularioBuscar {
+        width: 95vw;
+        height: 5vh;
+        margin: 0vh auto 2vh;
+    
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    
+        background-color: rgb(125, 156, 248);
+        border-radius: 5px;
+      }
+    }
+    
+    &__container__formularioDataEncontrada {
+        
+      &__formularioDataEncontrada {
+        width: 95vw;
+        height: 72.5vh;
+        margin: 0vh auto 2vh;
+        padding: 0.5vh 0vw;  
+        display: grid;
+        grid-template-columns: repeat(1, 40vw 60vw);
+        justify-items: flex-start;
+        align-items: flex-start;
+        row-gap: 1vh;  
+        background-color: rgb(125, 156, 248);
+        border-radius: 5px;
+
+          & label {
+            margin-left: 2vw;
+          }  
+
+          & button {
+            width: 70%;
+            margin: 15px auto 0px;
+            padding: 5px 0px;
+
+            text-transform: uppercase;
+            text-align: center;
+            color: $text-color;
+
+            border: none;
+            outline: none;
+            border-radius: 5px;
+
+            background-color: royalblue;
+          }
+  
+          & button:hover,
+          & button:focus {
+            color: royalblue;
+            background-color: $text-color;
+          }
+  
+          & button:active {
+            transform: scale(0.95);
+          }
+      }
+    }
+}
+
+.container-error__buscar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 98%;
+  height: 5%;
+  margin: 2% 1%;
+  padding: 0px 5px;
+  border-radius: 5px;
+  
+    &__parrafo {
+      color: $text-color
+    }
+}
+  
+.container-error-visible__buscar {
+  background-color: $secundary-danger-color;
+}

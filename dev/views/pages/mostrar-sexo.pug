@@ -1,0 +1,21 @@
+extends ../templates/template.pug
+
+block main
+  .main-container
+    .container-title
+      a(href="index.html").container-title__link Home
+      h1.container-title__title Mostrar Sexo
+
+    .container-selectSexo#container-select-sexo
+      .container-selectSexo__container__formularioSexo#container__formularioSexo
+        form(action="").container-selectSexo__container__formularioSexo__formularioSexo#formularioSexo
+          label(for="selectSexo") Sexo:
+          select(name="selectSexo" required)#selectSexo
+            option(value="Seleccione" selected) Seleccione
+            option(value="Macho") Macho
+            option(value="Hembra") Hembra
+
+      .container-selectSexo__container-sexoEncontrado#container-sexoEncontrado
+
+    .container-error__mostrarSexo#container-error
+      p.container-error__mostrarSexo__parrafo#container-error__parrafo

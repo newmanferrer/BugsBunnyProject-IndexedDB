@@ -1,0 +1,14 @@
+extends ../templates/template.pug
+
+block main
+  .main-container
+    .container-title__index
+      h1.container-title__index__title Bugs Bunny Project
+
+    .container-nav__index 
+      nav.container-nav__index__nav
+        ul.container-nav__index__ul
+          +pages-links(pagesLinks,pages)           
+
+    .container-error__index.container-error-visible__index
+      p.container-error__index__parrafo Versión 0.1 - 26/08/2020

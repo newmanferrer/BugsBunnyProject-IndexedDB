@@ -1,0 +1,4 @@
+mixin pages-links(hrefs,pages)
+  each page,hrefIndex in pages
+    li.container-nav__index__item
+      a.container-nav__index__link(href=hrefs[hrefIndex])=page

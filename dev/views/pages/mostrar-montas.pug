@@ -1,0 +1,22 @@
+extends ../templates/template.pug
+
+block main
+  .main-container
+  
+    .container-title
+      a(href="index.html").container-title__link Home
+      h1.container-title__title Mostrar Montas
+
+    .container-mostrarMontas#container-mostrarMontas
+
+      .container-mostrarMontas__container-formulario-BuscarMontas#container-formulario-mostrar-BuscarMontas
+        form(action="").container-mostrarMontas__container-formulario-BuscarMontas__formularioBuscarMontas#mostrar__formularioBuscarMontas
+          label(for="inputBuscarMontas") Código:
+          input(type="text" name="inputBuscarMontas" required autocomplete="off" autofocus placeholder="Rango (001 - 999)")#inputBuscarMontas
+          button(type="submit" name="buttonBuscar") Buscar
+
+      .container-mostrarMontas__container-formulario-mostrarMontasEncontradas#mostrar__container-formularioMontasEncontradas
+        .container-mostrarMontas__container-formulario-mostrarMontasEncontradas__formulario-mostrarMontasEncontradas#formulario-mostrarMontasEncontradas
+
+    .container-error__mostrar-montas#container-error
+      p.container-error__parrafo#container-error__parrafo

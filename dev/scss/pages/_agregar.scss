@@ -1,0 +1,129 @@
+.main-container {
+  width: 370px;
+  height: 800px;
+  margin: 2px;
+  background-color: $background-color;
+  border-radius: 10px;
+}
+
+.container-title {
+  width: 100%;
+  height: 8%;
+  margin-bottom: 3%;
+  
+  display: grid;
+  grid-template-columns: 20% 80%;
+  grid-template-rows: 100%;
+  justify-content: center;
+  align-items: center;  
+
+  border-bottom: 1px solid $primary-color; 
+
+    &__title {
+      padding: 5px;
+      color: $primary-color;
+      font-size: 32px;
+      font-weight: $big-font;
+      text-align: center;
+    }  
+
+    &__link {
+      margin: 0px 6px;
+      padding: 3px 0px;  
+      font-size: 12px;
+      text-decoration: none;
+      text-align: center;
+      color: $text-color;  
+      outline: none;
+      border: none;
+      border-radius: 5px;
+      background-color: rgb(97, 131, 235);
+    }
+
+    &__link:active {
+      transform: scale(0.95);
+    }
+}
+
+.container-formulario {
+  width: 98%;
+  height: 84.5%;
+  margin: 0% 1% 2%;
+  padding: 1% 0%;  
+
+  border-radius: 10px;
+  background-color: rgb(97, 131, 235);
+
+  &__formularioAgregar {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;  
+    width: 98%;
+    height: 98%;
+    margin: 2% auto 0%;
+
+      &__text-field {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: repeat(8, 1fr);
+        row-gap: 2.5%;
+        width: 98%;
+
+          & label {
+            font-size: 18px;
+          }
+
+          & input, select {
+            border-radius: 5px;
+          }
+      }
+
+      &__container-button {
+        grid-column: 1/3;
+        margin: 13% 0% 0%;
+        text-align: center;
+
+          &__button {
+            padding: 2% 5%;
+        
+            color: $primary-color;
+            text-transform: uppercase;
+            outline: none;
+        
+            background-color: $text-color;
+            border: none;
+            border-radius: 8px;
+          }
+  
+          &__button:hover {
+            color: $text-color;
+            background-color: $primary-color;
+          }
+  
+          &__button:active {
+            transform: scale(0.95);
+          }
+      } 
+  }
+}
+
+.container-error {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 98%;
+  height: 4.5%;
+  margin: 0% 1%;
+  padding: 0px 5px;
+  border-radius: 5px;
+
+    &__parrafo {
+      color: $text-color
+    }
+}
+
+.container-error-visible {
+  background-color: $secundary-danger-color;
+}

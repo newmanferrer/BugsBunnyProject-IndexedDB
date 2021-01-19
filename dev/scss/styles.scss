@@ -1,0 +1,25 @@
+/* GUÍAS DE ESTILO
+================================================================== */
+@import 'config/_colors.scss';
+@import 'config/_fonts.scss';
+/* =============================================================== */
+
+/* ESTILOS BASE
+================================================================== */
+@import 'base/normalize.scss';
+@import 'base/base.scss';
+/* =============================================================== */
+
+/* PAGES
+================================================================== */
+@import 'pages/_index.scss';
+@import 'pages/_agregar.scss';
+@import 'pages/_agregar-montas.scss';
+@import 'pages/_agregar-partos.scss';
+@import 'pages/_mostrar.scss';
+@import 'pages/_buscar.scss';
+@import 'pages/_mostrar-raza.scss';
+@import 'pages/_mostrar-sexo.scss';
+@import 'pages/_mostrar-montas.scss';
+@import 'pages/_mostrar-partos.scss';
+/* =============================================================== */

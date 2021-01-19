@@ -1,0 +1,26 @@
+extends ../templates/template.pug
+
+block main
+  .main-container
+    .container-title
+      a(href="index.html").container-title__link Home
+      h1.container-title__title Mostrar Raza
+
+    .container-selectRaza
+      .container-selectRaza__container__formularioRaza#container__formularioRaza
+        form(action="").container-selectRaza__container-formularioRaza__formularioRaza#formularioRaza
+          label(for="selectRaza") Raza:
+          select(name="selectRaza" required)#selectRaza
+            option(value="Seleccione" selected) Seleccione
+            option(value="Azul de viena") Azul de viena
+            option(value="Cabeza de león") Cabeza de león
+            option(value="Californiano") Californiano
+            option(value="Gigante de Flanders") Gigante de Flanders
+            option(value="Mariposa") Mariposa
+            option(value="Mini Rex") Mini Rex
+            option(value="Nueva Zelanda") Nueva Zelanda
+
+      .container-selectRaza__container-razaEncontrada#container-razaEncontrada
+
+    .container-error__mostrarRaza#container-error
+      p.container-error__mostrarRaza__parrafo#container-error__parrafo
